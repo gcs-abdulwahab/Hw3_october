@@ -20,16 +20,26 @@ int fib(int n)
 
 int main() {
 
-    int k = 20;
+   /* int k = 20;
     long long start = 7;
     long long end = 100;
 
     for (int i = 0 ; fib(i) < end ; i++) {
         if(fib(i) >= start && fib(i) <= end)
             cout<<(fib(i))<<"  ";
-    }
+    }*/
 
+	int limit=  400000;
+    int total=0;
 
+	for (int i = 0; fib(i) < limit; i++)
+	{
+		if (fib(i) % 2 == 0)
+		{
+			total = total + fib(i);
+		}
+	}
+    cout<< total;
 
     return 0;
 }
