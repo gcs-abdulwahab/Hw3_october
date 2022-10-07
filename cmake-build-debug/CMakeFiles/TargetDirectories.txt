@@ -1,0 +1,3 @@
+C:/Users/aae/CLionProjects/Hw3-october/cmake-build-debug/CMakeFiles/Hw3_october.dir
+C:/Users/aae/CLionProjects/Hw3-october/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aae/CLionProjects/Hw3-october/cmake-build-debug/CMakeFiles/rebuild_cache.dir
